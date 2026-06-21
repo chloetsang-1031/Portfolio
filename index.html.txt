@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Dive into the AI Modern World</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="custom-cursor" id="cursor"></div>
+    <div class="custom-cursor-dot" id="cursor-dot"></div>
+
+    <nav>
+        <div class="logo">AI.Dev</div>
+        <div class="nav-links">
+            <a href="#goals">Goals</a>
+            <a href="#projects">Projects</a>
+            <a href="#experience">Experience</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </nav>
+
+    <header>
+        <div class="hero-badge">Available for Engineering Roles</div>
+        <h1>Dive into the<br><span class="accent-text">AI Modern</span><br>World.</h1>
+    </header>
+
+    <section id="goals">
+        <h2 class="section-title">Core Goals</h2>
+        <div class="goals-grid">
+            <div class="goal-card">
+                <div class="goal-num">01 // ARCHITECTURE</div>
+                <h3>Architecting Intent</h3>
+                <p>Designing modern, scalable paths optimized for seamless AI integrations and deep data workflows.</p>
+            </div>
+            <div class="goal-card">
+                <div class="goal-num">02 // COGNITION</div>
+                <h3>Evolving Interaction</h3>
+                <p>Building high-fidelity digital models that humanize machine intelligence interfaces.</p>
+            </div>
+            <div class="goal-card">
+                <div class="goal-num">03 // SPEED</div>
+                <h3>Optimized Execution</h3>
+                <p>Ensuring complex learning pipelines operate at sub-millisecond edge delivery runtimes.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2 class="section-title">Selected Works</h2>
+        <div class="projects-list">
+            
+            <div class="project-item">
+                <div class="project-img-wrapper">
+                    <div class="project-placeholder"></div>
+                </div>
+                <div class="project-info">
+                    <h3>Dive into the AI modern world</h3>
+                    <p>An interactive, multi-stage learning path engine mapped out for comprehensive AI engineering curriculum tracking and resource indexing.</p>
+                    <div class="project-tags">
+                        <span class="tag">TypeScript</span>
+                        <span class="tag">Next.js</span>
+                        <span class="tag">LLM Orchestration</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-item">
+                <div class="project-img-wrapper">
+                    <div class="project-placeholder"></div>
+                </div>
+                <div class="project-info">
+                    <h3>Neural Canvas Analytics</h3>
+                    <p>A brutalist monitoring dashboard charting structural neural weight decay matrices over high-frequency training iterations.</p>
+                    <div class="project-tags">
+                        <span class="tag">Python</span>
+                        <span class="tag">D3.js</span>
+                        <span class="tag">WebSockets</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="experience">
+        <h2 class="section-title">Experience</h2>
+        <div class="exp-timeline">
+            
+            <div class="exp-row">
+                <div class="exp-time">2024 — Present</div>
+                <div class="exp-role">
+                    <h3>Lead Systems Architect</h3>
+                    <p>Spearheading structural evolution of multi-agent execution clusters. Refactored high-load ingestion systems yielding significant drops in context token overhead.</p>
+                </div>
+                <div class="exp-company">Cognitive Labs</div>
+            </div>
+
+            <div class="exp-row">
+                <div class="exp-time">2022 — 2024</div>
+                <div class="exp-role">
+                    <h3>Full Stack Engineer</h3>
+                    <p>Deployed low-latency web entry points interfacing with heavy inference architectures. Maintained pixel-perfect modern web assets drawing record operational engagement metrics.</p>
+                </div>
+                <div class="exp-company">Synthetix AI</div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2 class="section-title">Let's Connect</h2>
+        <div class="contact-container">
+            <div class="contact-info">
+                <p>Have an ambitious project blueprint, or seeking to integrate intelligent systems into your product stack? Drop a transmission.</p>
+            </div>
+            
+            <form action="https://formspree.io/f/YOUR_FORMSPREE_ENDPOINT_HERE" method="POST">
+                <div class="form-group">
+                    <label for="name">Identity</label>
+                    <input type="text" id="name" name="name" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Digital Address</label>
+                    <input type="email" id="email" name="_replyto" placeholder="your@email.com" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Transmission</label>
+                    <textarea id="message" name="message" rows="5" placeholder="Project goals, scope, details..." required></textarea>
+                </div>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div>© 2026 All Rights Reserved</div>
+        <div>Designed for the Web Era</div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
